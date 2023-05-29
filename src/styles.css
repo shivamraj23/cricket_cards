@@ -1,0 +1,28 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(to right, #d9a7c7, #fffcdc);
+}
+
+.App {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.playercard {
+    background: linear-gradient(to right, #c04848, #480048);
+
+    width: 20vw;
+    margin: 20px;
+    padding: 5px;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.playerdetails {
+    display: flex;
+    justify-content: space-around;
+}
